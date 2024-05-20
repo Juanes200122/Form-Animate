@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(249, 249, 249);
+  background-color: #f9f9f9;
   padding: 0;
   margin: 0;
   padding: 20px;
@@ -18,9 +18,9 @@ body {
   .container_master {
     width: 900px;
     height: 500px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 2px 2px 30px rgba(171, 171, 171, 0.132);
+    box-shadow: 2px 2px 30px #ababab22;
     display: flex;
     padding: 15px;
     gap: 20px;
@@ -40,7 +40,7 @@ body {
         font-weight: 600;
       }
       .Welcome {
-        color: rgb(84, 84, 84);
+        color: #545454;
       }
       #form_register {
         display: flex;
@@ -209,7 +209,7 @@ body {
       width: calc(50% - 15px);
       height: calc(100% - 30px);
       position: absolute;
-      background-color: rgb(80, 130, 230);
+      background-color: #5082e6;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
@@ -218,7 +218,7 @@ body {
       z-index: 999;
 
       .image {
-        background-image: url(https://deployed-image-22.web.app/image/resourcess/preview.png);
+        background-image: url(../image/preview.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 60%;
