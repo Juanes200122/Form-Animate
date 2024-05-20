@@ -19,6 +19,7 @@
 
 ## <b> Diseño Visual</b>
 <p>La paleta de colores utilizada</p>
+<img align="right" src="image/preview.png" width="300" />
 
 ```css
     :root {
