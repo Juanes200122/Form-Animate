@@ -15,9 +15,24 @@
       <img src="https://img.shields.io/badge/-@jeacsi.official_022-purple?style=flat&logo=instagram&logoColor=white&link=https://www.instagram.com/jeacsi.official_022?igsh=MWJ6MHRwcnhoZXVxbQ==" alt="Instagram Badge">
     </a>
 </p>
+<p>Formulario con una experiencia de usuario amigable y eficiente, con un diseño moderno y atractivo. Utilizando tecnologías web estándar como HTML, CSS, y JavaScript, este formulario combina funcionalidad con una estética cuidada para asegurar que los usuarios tengan una excelente primera impresión.</p>
 
+## <b> Diseño Visual</b>
+<p>La paleta de colores utilizada</p>
 
-
+```css
+    :root {
+      --body_color: #f9f9f9;
+      --card_color: #ffffff;
+      --box_shadow_card: #ababab22;
+      --text_color: #545454;
+      --input_border: #e2e2c6;
+      --input_background: #fffff7;
+      --button: #5e80f8;
+      --button_hover: #6d8cff;
+      --red_color_button: #db4437;
+    }
+```
 
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
