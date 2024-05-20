@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="css/style.css">
+
+<div class="container_master" id="media">
+    <div id="register_form">
+        <span class="text_register">Register</span>
+        <span class="Welcome">You are one step away from becoming a member of this platform</span>
+        <form action="" method="" id="form_register">
+            <div class="container_name">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="last_name" placeholder="Last name" required>
+            </div>
+            <input type="email" name="email" placeholder="Email addres" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="password_2" placeholder="Confirm Password" required>
+            <div class="button_register">
+                <button type="submit" id="submit" disabled>Register account</button>
+            </div>
+        </form>
+        <span class="register_bash">Are you already registered?<button id="ghost_login">login</button></span>
+    </div>
+
+    <div id="login_form">
+        <span class="text_hello">Hello, Again</span>
+        <span>We are happy to have you back</span>
+        <form action="" class="formulario" method="post">
+            <input type="text" placeholder="Email addres" required>
+            <input type="password" placeholder="Password" required>
+            <div class="display_me">
+                <div class="lap_1">
+                    <input type="checkbox">
+                    <span>Remember Me</span>
+                </div>
+                <div class="lap_2">
+                    <a href="">Forgot Password</a>
+                </div>
+            </div>
+            <div class="container_buttons">
+                <button type="submit" class="submit_button">Login</button>
+                <button class="google_sing"><img src="https://deployed-image-22.web.app/login/google%20(2).png"
+                        alt="">Sign In With Google</button>
+            </div>
+        </form>
+        <span class="register_bash">Don't have account?<button id="ghost_register">Sign In</button></span>
+
+    </div>
+
+    <div class="ghost" id="ghost_traslate">
+        <div class="image"></div>
+        <span class="Verified">Be Verified</span>
+        <span class="experienced">Join experienced Designers on this platform.</span>
+    </div>
+</div>
+
+<script src="js/form.js"></script>
